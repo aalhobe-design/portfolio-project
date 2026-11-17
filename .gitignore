@@ -13,3 +13,12 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Ignore Android build files
+**/build/
+.gradle/
+.idea/
+local.properties
+.kotlin/
+.externalNativeBuild/
+.cxx/
